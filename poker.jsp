@@ -19,7 +19,7 @@ String label = model.getButtonLabel();
 チップ：<%= model.getChips() %>
 <hr>
 <%= model.getMessage() %>
-<form action="/s2032156/PokerServlet" method="POST">
+<form action="/test2/PokerServlet" method="POST">
 <table>
 <tr>
 <td><img src="cards/<%= model.getHandcardAt(0) %>.png" width="100" height="150"></td>
@@ -39,6 +39,6 @@ String label = model.getButtonLabel();
 <input type="submit" value="<%= label %>">
 </form>
 <hr>
-<a href="/s2032156/PokerServlet">リセット</a>
+<a href="/test2/PokerServlet">リセット</a>
 </body>
 </html>
